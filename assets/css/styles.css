@@ -767,6 +767,14 @@ img {
   font-size: .9rem;
 }
 
+.portfolio__data{
+  
+}
+
+.portfolio__button{
+  padding: .2rem 1rem;
+}
+
 .portfolio__button:hover .button__icon{
   transform: translateX(.25rem);
 }
@@ -1041,6 +1049,14 @@ img {
     padding: 0 .5rem;
   }
 
+  .herramientas__usadas{ 
+    line-height: 20pt; 
+  }
+
+  .portfolio__button{
+    margin-bottom: .5rem;
+  }
+
   .project__img{
     width: 200px;
   }
@@ -1074,6 +1090,9 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .project__data{
+    padding-bottom: 1rem;
+  }
 
   .qualification__sections{
     display: grid;
