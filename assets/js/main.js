@@ -199,12 +199,12 @@ const sr = ScrollReveal({
     //reset: true
 })
 
-sr.reveal(`.home__title, .services__container, .certificate__container, .portfolio__container, .footer__container`)
+sr.reveal(`.home__title, .certificate__container, .portfolio__container, .footer__container`)
 
 sr.reveal(`.home__img`, {delay: 700})
 // sr.reveal(`.home__img`, {delay: 800, origin: 'bottom'})
 // sr.reveal(`.logos__img`, {interval: 100}) 
-sr.reveal(`.contact__content`, {origin: 'right'})
+// sr.reveal(`.contact__content`, {origin: 'right'})
 sr.reveal(`.contact__container, .about__img`, {origin: 'left'})
 
 /*==================== FORMspree ====================*/ 
