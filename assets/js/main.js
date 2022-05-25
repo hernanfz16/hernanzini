@@ -68,22 +68,6 @@ tabs.forEach(tab =>{
     })
 })      
 
-/*==================== CERTIFICATE SWIPER  ====================*/
-let swiperCertificate = new Swiper(".certificate__container", {
-    cssMode: true,
-    loop: true,
-
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-  });
-
 /*==================== MODAL SERVICIOS ====================*/
 const modalViews = document.querySelectorAll('.services__modal'),
       modalBtns = document.querySelectorAll('.services__button'),
@@ -108,8 +92,8 @@ modalCloses.forEach((modalClose) =>{
 })
 
 
-/*==================== PORTAFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper(".portfolio__container", {
+/*==================== SWIPER PORTAFOLIO Y CERTIFICADOS  ====================*/
+let swiperPortfolio = new Swiper(".portfolio__container, .certificate__container", {
     cssMode: true,
     loop: true,
 
