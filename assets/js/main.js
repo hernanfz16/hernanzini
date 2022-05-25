@@ -189,7 +189,7 @@ sr.reveal(`.home__img`, {delay: 700})
 // sr.reveal(`.home__img`, {delay: 800, origin: 'bottom'})
 // sr.reveal(`.logos__img`, {interval: 100}) 
 // sr.reveal(`.contact__content`, {origin: 'right'})
-sr.reveal(`.contact__container, .about__img`, {origin: 'left'})
+sr.reveal(`.about__img`, {origin: 'left'})
 
 /*==================== FORMspree ====================*/ 
 const $form = document.querySelector('#form')
